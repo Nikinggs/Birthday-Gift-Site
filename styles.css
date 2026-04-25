@@ -1,32 +1,40 @@
 body {
-     font-family: "Happy Monkey", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  background: linear-gradient(#a2d2ff, pink);
-  /*text-align: center;*/
- /* background-color: #a2d2ff;*/
-  text-shadow: 0 0 5px black;
-  color: black;
- 
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(#a2d2ff, pink);
+    /*text-align: center;*/
+    /* background-color: #a2d2ff;*/
+    text-shadow: 0 0 3px black;
+    color: black;
+
 }
+
 .nav {
-     display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
 }
 
 #logo {
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 300px;
     border-radius: 100px;
     border: 6px solid pink;
 }
+
 .header {
     background-color: #efb0c9;
     padding: 7px 9px;
     border-radius: 5px;
     margin: 10px 0 8px 0;
+}
+
+p {
+    text-indent: 30px;
+    line-height: 1.6;
+    margin-bottom: 16px;
 }
 
 .gift-section {
@@ -53,7 +61,7 @@ body {
 #text-h2 {
     padding: 4px 9px;
     border-radius: 5px;
-   margin: 20px auto 5px;
+    margin: 20px auto 5px;
 }
 
 #text-h3 {
@@ -67,22 +75,76 @@ body {
     background-image: url(/pics/friends-bffs.gif);
     background-size: cover;
 }
+
 #cover-img3:hover {
-    background-image: url(/pics/friends-bffs.gif);
+    background-image: url(/pics/beautiful.JPG);
     background-size: cover;
 }
-#cover-img4:hover {
-    background-image: url(/pics/friends-bffs.gif);
-    background-size: cover
-}
 
-#cover-img5 {
-    height: 280px;
+#cover-img4:hover {
+    background-image: url(/pics/badass.JPG);
+    background-size: cover
 }
 
 #cover-img5:hover {
-    background-image: url(/pics/friends-bffs.gif);
+    background-image: url(/pics/tb.PNG);
     background-size: cover
+}
+
+#cover-img6:hover {
+    background-image: url(/pics/2021.JPG);
+    background-size: cover
+}
+
+#cover-img7:hover {
+    background-image: url(/pics/2022.JPG);
+    background-size: cover
+}
+
+#cover-img8:hover {
+    background-image: url(/pics/2023.JPG);
+    background-size: cover
+}
+
+#cover-img9:hover {
+    background-image: url(/pics/2025.JPG);
+    background-size: cover
+}
+
+#cover-img10:hover {
+    background-image: url(/pics/recreate.JPG);
+    background-size: cover
+}
+#cover-img11:hover {
+    background-image: url(/pics/my\ baby1.jpeg);
+    background-size: cover
+}
+
+#cover-img11 {
+    height: 400px;
+}
+
+#cover-img12:hover {
+    background-image: url(/pics/my\ baby2.jpeg);
+    background-size: cover
+}
+#cover-img13:hover {
+    background-image: url(/pics/my\ baby3.jpeg);
+    background-size: cover
+}
+#cover-img14:hover {
+    background-image: url(/pics/my\ baby4.jpeg);
+    background-size: cover
+}
+
+.dance {
+  display: inline-block;
+  animation: dance 0.8s infinite alternate;
+}
+
+@keyframes dance {
+  from { transform: rotate(-10deg) translateY(0); }
+  to { transform: rotate(10deg) translateY(-3px); }
 }
 
 #footer {
