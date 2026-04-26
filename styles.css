@@ -18,9 +18,9 @@ body {
 }
 
 #logo {
-    width: 350px;
+    width: 280px;
     height: 300px;
-    border-radius: 100px;
+    border-radius: 150px;
     border: 6px solid pink;
 }
 
